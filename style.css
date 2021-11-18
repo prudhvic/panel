@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:wght@300;400;500;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  letter-spacing: 1.5px;
+  text-transform: capitalize;
+  line-height: 1.5;
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+}
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #51a3a3;
+}
+a,
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+.card {
+  max-width: 30rem;
+  margin: 0 auto;
+  color: #d1d1d1;
+  padding: 1em;
+}
+.card-data {
+  display: grid;
+  background-color: #3b3561;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 2px 2px 10px black;
+}
+.card-data h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.card-data h1 + p {
+  font-weight: 300;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+.card-data h2 {
+  background-color: #d1d1d1;
+  color: #3b3561;
+  text-align: center;
+  font-weight: 400;
+  border-radius: 5px;
+}
+h2 + p {
+  font-weight: 300;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  padding: 1em;
+}
+ul li {
+  border-left: 3px solid white;
+  padding-left: 10px;
+  height: 1.5rem;
+}
+a {
+  background: cornsilk;
+  display: block;
+  max-width: 10rem;
+  color: black;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+a:hover {
+  background: #3b3561;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
